@@ -16,10 +16,22 @@
 <body>
     <h1>Rock Paper Scissors</h1>
     <div>
-        <button id="rock">Rock &#129704;</button>
-        <button id="paper">Paper &#128221;</button>
-        <button id="scissors">Scissors &#9986;</button>
+        <button class="pick" id="rock">Rock &#129704;</button>
+        <button class="pick" id="paper">Paper &#128221;</button>
+        <button class="pick" id="scissors">Scissors &#9986;</button>
     </div>
+    <div id="result"></div>
+    <div class="counter">
+        <div class="score">
+            <div>Player</div>
+            <div id="pscore"></div>
+        </div>
+        <div class="score">
+            <div>AI</div>
+            <div id="cscore"></div>
+        </div>
+    </div>
+    <button id="restart">Restart</button>
 </body>
 
 </html>
